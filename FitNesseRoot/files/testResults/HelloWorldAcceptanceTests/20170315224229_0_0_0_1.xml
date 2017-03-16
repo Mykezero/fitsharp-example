@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>HelloWorldAcceptanceTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2017-03-15T22:42:29-04:00</date>
+    <runTimeInMillis>7</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitsharp\Runner.exe&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: fixtures\HelloWorld.AcceptanceTests.dll&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error" colspan="2"&gt;HelloWorldTests&lt;hr /&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;fitSharp.Machine.Exception.TypeMissingException: Type 'HelloWorldTests' not found in assemblies:
+    file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/mscorlib.dll
+    file:///C:/Users/as482/Desktop/fitnesse/fitsharp/Runner.exe
+    file:///C:/Users/as482/Desktop/fitnesse/FitSharp/fitSharp.DLL
+    file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+    file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+    file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+    file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+    file:///C:/Users/as482/Desktop/fitnesse/FitSharp/fit.DLL
+    file:///C:/Users/as482/Desktop/fitnesse/fixtures/HelloWorld.AcceptanceTests.dll
+    file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+
+   at fitSharp.Machine.Engine.ReflectionMember.Invoke(Object[] parameters)
+   at fitSharp.Machine.Engine.ProcessorBase`2.Operate[O](Object[] parameters)
+   at fitSharp.Fit.Operators.ParseInterpreter.MakeInterpreter(Cell classCell)
+   at fitSharp.Fit.Operators.ParseInterpreter.Parse(Type type, TypedValue instance, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorBase`2.&lt;&gt;c__DisplayClass11.&lt;&gt;c__DisplayClass13.&lt;Parse&gt;b__10(ParseOperator`1 o)
+   at fitSharp.Machine.Engine.Operators`2.Do[O](CanDoOperation`1 canDoOperation, DoOperation`1 doOperation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.&lt;&gt;c__DisplayClass11.&lt;Parse&gt;b__e(OperationLogging logging)
+   at fitSharp.Machine.Engine.ProcessorBase`2.DoLoggedOperation[R](String startMessage, Func`2 operation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.Parse(Type type, TypedValue instance, Tree`1 parameters)
+   at fitSharp.Fit.Service.CellProcessorBase.Parse(Type type, TypedValue instance, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorExtension.ParseTree[T](Processor`1 processor, Type type, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorExtension.ParseTree[T,V](Processor`1 processor, Tree`1 input)
+   at fitSharp.Fit.Engine.InterpretFlow.ProcessFlowRow(Tree`1 table, Int32 rowNumber)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Name&lt;/td&gt;
+		&lt;td&gt;Message?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Mike&lt;/td&gt;
+		&lt;td&gt;Hello, Mike&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>HelloWorldAcceptanceTests</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fitsharp\Runner.exe</testSystem>
+    <command>fitsharp\Runner.exe -r fitnesse.fitserver.FitServer,fitsharp\fit.dll fixtures\HelloWorld.AcceptanceTests.dll DESKTOP-VOP32BF 62368 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>536</totalRunTimeInMillis>
+</testResults>
+

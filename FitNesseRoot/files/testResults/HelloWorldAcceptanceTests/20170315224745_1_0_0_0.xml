@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>HelloWorldAcceptanceTests</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-15T22:47:45-04:00</date>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitsharp\Runner.exe&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: fixtures\HelloWorld.AcceptanceTests.dll&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;&lt;span class="fit_interpreter"&gt;HelloWorld.AcceptanceTests.HelloWorldTests&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="fit_member"&gt;Name&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fit_member"&gt;Message?&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Mike&lt;/td&gt;
+		&lt;td class="pass"&gt;Hello, Mike&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;World!&lt;/td&gt;
+		&lt;td class="pass"&gt;Hello, World!&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>HelloWorldAcceptanceTests</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fitsharp\Runner.exe</testSystem>
+    <command>fitsharp\Runner.exe -r fitnesse.fitserver.FitServer,fitsharp\fit.dll fixtures\HelloWorld.AcceptanceTests.dll DESKTOP-VOP32BF 62671 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>536</totalRunTimeInMillis>
+</testResults>
+

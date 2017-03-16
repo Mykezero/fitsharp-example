@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FitNesse.UserGuide.WritingAcceptanceTests.RunningAcceptanceTests</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-15T22:25:04-04:00</date>
+    <runTimeInMillis>15</runTimeInMillis>
+    <content>&lt;br/&gt;Acceptance tests are run by hitting the &lt;b&gt;Test&lt;/b&gt; button (or typing &lt;i&gt;ALT-t&lt;/i&gt;).  This button appears on any page that has the &lt;b&gt;Test&lt;/b&gt; attribute set.  See Page Attributes&lt;a title="create page" href="FitNesse.UserGuide.WritingAcceptanceTests.PageProperties?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Any tables that are on the page are run through the Fit framework (See &lt;a href="http://fit.c2.com"&gt;http://fit.c2.com&lt;/a&gt; ).&lt;br/&gt;&lt;br/&gt;So, for example, click the &lt;b&gt;Test&lt;/b&gt; button (or type &lt;i&gt;ALT-t&lt;/i&gt;) and see what happens to the table below:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;eg.Division&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;quotient?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12.6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;4.2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-3&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="fail"&gt;0 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;Infinity &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;33&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;11&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;TroubleshootingAcceptanceTests&lt;a title="create page" href="FitNesse.UserGuide.WritingAcceptanceTests.TroubleshootingAcceptanceTests?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;See: &lt;a href="FitNesse.UserGuide.WritingAcceptanceTests.CustomizingTestExecution"&gt;Customizing Test Execution&lt;/a&gt;&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;hr/&gt;
+&lt;br/&gt;You may also run FitNesseTests&lt;a title="create page" href="FitNesse.UserGuide.WritingAcceptanceTests.FitNesseTests?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; by using the CommandLineTestRunner&lt;a title="create page" href="FitNesse.UserGuide.WritingAcceptanceTests.CommandLineTestRunner?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;!&lt;br/&gt;</content>
+    <relativePageName>RunningAcceptanceTests</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>"C:\Program Files\Java\jre1.8.0_121\bin\java" -cp C:\Users\as482\Desktop\fitnesse\fitnesse-standalone.jar;lib/*.jar fit.FitServer DESKTOP-VOP32BF 61390 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>444</totalRunTimeInMillis>
+</testResults>
+
